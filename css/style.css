@@ -1,7 +1,7 @@
 /* Custom Font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* General CSS Style Starts Here */
+/* ======================= General CSS Style Starts Here ======================= */
 * {
   margin: 0;
   padding: 0;
@@ -26,11 +26,11 @@
   --color-light: rgba(255, 255, 255, 0.7);
   --color-danger-variant: rgba(247, 88, 66, 0.4);
 
-  --container-width-lg: 76%;
+  --container-width-lg: 85%;
   --container-width-md: 90%;
   --container-width-sm: 94%;
 
-  --transition: all 0.5s ease;
+  --transition: all 0.4s ease;
 }
 
 /* Body, Container & Section Style */
@@ -101,5 +101,36 @@ img {
   background: var(--color-danger);
   color: var(--color-white);
 }
-/* General CSS Style Ends Here */
+/* ========================= General CSS Style Ends Here ========================== */
 
+/* ===================== Navbar Start ======================== */
+nav {
+  background: transparent;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+.nav__container {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav button {
+  display: none;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.nav__menu a{
+    font-size: 1rem;
+    transition: var(--transition);
+}
+.nav__menu a:hover{
+    color: var(--color-bg2);
+}
+/* ===================== Navbar End ======================== */
