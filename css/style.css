@@ -126,11 +126,12 @@ nav button {
   align-items: center;
   gap: 4rem;
 }
-.nav__menu a{
-    font-size: 1rem;
-    transition: var(--transition);
+.nav__menu a {
+  font-size: 1rem;
+  transition: var(--transition);
 }
-.nav__menu a:hover{
-    color: var(--color-bg2);
+.nav__menu a:hover {
+  color: var(--color-bg2);
 }
 /* ===================== Navbar End ======================== */
+
