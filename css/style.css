@@ -164,7 +164,7 @@ header {
 /* ===================== Categories ==================== */
 .categories {
   background: var(--color-bg1);
-  height: 29rem;
+  height: 33rem;
 }
 .categories h1 {
   line-height: 1;
@@ -337,14 +337,11 @@ footer {
 }
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
 .footer__container > div h4{
     margin-bottom: 1.2rem;
-}
-.footer__1 p{
-    margin: 0 0 2rem;
 }
 footer ul li{
     margin-bottom: 0.7rem;
