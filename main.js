@@ -1,4 +1,4 @@
-// Change Navbar Style in Scroll
+// Change navbar style in scroll
 window.addEventListener("scroll", () => {
   document
     .querySelector("nav")
