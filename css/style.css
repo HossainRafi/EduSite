@@ -113,12 +113,11 @@ nav {
   position: fixed;
   top: 0;
   z-index: 11;
-  transition: var(--transition);
 }
 
 /* change navbar style on scroll using javascript */
 .window-scroll {
-  background: var(--color-primary);
+  background: var(--color-bg1);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .nav__container {
@@ -140,7 +139,7 @@ nav button {
   transition: var(--transition);
 }
 .nav__menu a:hover {
-  color: var(--color-bg2);
+  color: var(--color-primary);
 }
 
 /* ===================== Header ======================== */
@@ -225,28 +224,63 @@ header {
   font-size: 0.85rem;
 }
 /* ================== Popular Courses =============== */
-.courses{
-    margin-top: 10rem;
+.courses {
+  margin-top: 10rem;
 }
-.courses__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+.courses__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
-.course{
-background: var(--color-bg1);
-text-align: center;
-border: 1px solid transparent;
-transition: var(--transition);
+.course {
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
-.course:hover{
-    background: transparent;
-    border-color: var(--color-primary);
+.course:hover {
+  background: transparent;
+  border-color: var(--color-primary);
 }
-.course__info{
-    padding: 2rem;
+.course__info {
+  padding: 2rem;
 }
-.course__info p{
-    margin: 1.2rem 0 2rem;
-    font-size: 0.9rem;
+.course__info p {
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+/* ======================== FAQ ========================= */
+.faqs {
+  background: var(--color-bg1);
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+.faqs_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.faq {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  height: fit-content;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+.faq h4 {
+  font-size: 1rem;
+  line-height: 2.2;
+}
+.faq__icon {
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+.faq p {
+  margin-top: 0.8rem;
+  display: none;
+}
+.faq.open p {
+  display: block;
 }
