@@ -19,7 +19,7 @@
 }
 .aside__image{
     /* width: 12rem; */
-    width: 15rem;
+    width: 16.6rem;
     margin-bottom: 2rem;
 }
 .contact__aside h2{
@@ -50,4 +50,31 @@
 }
 .contact__socials a:hover{
     background: var(--color-bg1);
+}
+
+/* ================ Contact Form ================= */
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+.form__name{
+    display: flex;
+    gap: 1.2rem;
+}
+.contact__form input[type="text"]{
+width: 50%;
+}
+input, textarea{
+    width: 100%;
+    padding: 1rem;
+    resize: none;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+.contact__form .btn{
+    width: max-content;
+    margin-top: 1rem;
+    cursor: pointer;
 }
