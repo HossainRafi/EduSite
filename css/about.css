@@ -1,8 +1,7 @@
-/* achievements */
+/* ================== Achievements ================= */
 .about__achievements {
   margin-top: 3rem;
 }
-
 .about__achievements-container {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -48,7 +47,7 @@
   margin-top: 1rem;
 }
 
-/* Team */
+/* =================== Team Members ================== */
 .team{
   background: var(--color-bg1);
   box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -103,7 +102,7 @@ margin-top: 1.4rem;
   padding: 1rem;
 }
 
-/* responsive for tablet devices */
+/* ================= Responsive For Tablet Devices ================= */
 @media screen and(max-width:1024px) {
   .about__achievements{
     margin-top: 2rem;
@@ -125,7 +124,7 @@ margin-top: 1.4rem;
   }
 }
 
-/* responsive for mobile devices */
+/* ================= Responsive For Mobile Devices ================= */
 @media screen and(max-width:600px) {
   .achievements__cards{
     grid-template-columns: 1fr 1fr;
