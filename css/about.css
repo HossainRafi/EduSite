@@ -71,6 +71,7 @@
   border-color: var(--color-primary);
 }
 .team__member-image img{
+  height: 230px;
   filter: saturate(1);
 }
 .team__member:hover img{
