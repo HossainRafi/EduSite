@@ -107,7 +107,7 @@ margin-top: 1.4rem;
 }
 
 /* ================= Responsive For Tablet Devices ================= */
-@media screen and(max-width:1024px) {
+@media screen and (max-width:1024px) {
   .about__achievements{
     margin-top: 2rem;
   }
@@ -129,7 +129,7 @@ margin-top: 1.4rem;
 }
 
 /* ================= Responsive For Mobile Devices ================= */
-@media screen and(max-width:600px) {
+@media screen and (max-width:600px) {
   .achievements__cards{
     grid-template-columns: 1fr 1fr;
     gap: 0.7rem;
