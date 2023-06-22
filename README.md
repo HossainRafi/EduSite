@@ -1,6 +1,6 @@
 # Project Name: [EduSite](https://jseduweb.netlify.app)
 
-## Tech Stack:
+## Technologies:
 - HTML
 - CSS
 - JavaScript
